@@ -1,0 +1,256 @@
+:javascript
+  $(function() {
+      
+    var showFlug = false;
+    var topBtn = $('#page-top');   
+    topBtn.css('bottom', '-100px');
+    var showFlug = false;
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            if (showFlug == false) {
+                showFlug = true;
+                topBtn.stop().animate({'bottom' : '20px'}, 200);
+            }
+        } else {
+            if (showFlug) {
+                showFlug = false;
+                topBtn.stop().animate({'bottom' : '-100px'}, 200);
+            }
+        }
+    });
+  });
+
+
+%header#header
+  .inner
+    %hgroup
+      %h1
+        %img{:src => "images/logo_h1.png", :width => "600", :height => "65"}
+      %p.youroom_link
+        %a{:href => "/"}
+          Back to youRoom
+#youroomassistant
+  %section.about
+    .inner
+      .description
+        %h1
+          A competent assistant to support
+          %br
+          your youRoom team activities.
+        %p
+          All the cumbersome stuff in your team and project work that anyone can do should be left to the computer. Enter youRoom Assistant--the virtual teammate who'll take care of all the pesky, repetitive stuff for you and your team.
+        %ul.function
+          %li.function_1
+            %p.image
+              %img{:src => "images/function_1.png", :width => "195", :height => "48"}
+            %p
+              Jam-packed with handy features like the reminder and tweet import functions that will enhance your youRoom experience.
+          %li.function_2
+            %p.image
+              %img{:src => "images/function_2.png", :width => "195", :height => "45"}
+            %p
+              All youRoom Assistant functions are provided free of charge. And it's easy to set up too! 
+      .illust
+#main-nav-holder
+  %nav#main-nav
+    %ul
+      %li.youroomassistant
+        %a{:href => "#getting_started"}
+          %img{:src => "/images/logo.png"}
+          How to Begin
+      %li.reminder
+        %a{:href => "#reminder"}
+          %img{:src => "/images/alert.png"}
+          Reminder
+      %li.twitter
+        %a{:href => "#twitter"}
+          %img{:src => "/images/twitter.png"}
+          Twitter Import
+      %li.pivotaltracker
+        %a{:href => "#pivotal_tracker"}
+          %img{:src => "/images/pivotal_tracker.png"}
+          Pivotal Tracker Interconnectivity
+      %li
+        %a{:href => "/"}
+          %img{:src => "/images/youroom.png"}
+          Back to youRoom
+%section.howto#getting_started
+  .inner
+    %h2
+      %i.icon-wrench
+      How to start youRoom
+    %ol
+      %li
+        %h4.number 1
+        %p.image
+          %img{:src => "/images/howto_01.png"}
+        %p.text
+          Navigate to the youRoom "Assistant" admin screen.
+          %br
+          (Go to a room where you have admin rights > Manage Room > Assistant) 
+      %li
+        %h4.number 2
+        %p.image
+          %img{:src => "/images/howto_02.png"}
+        %p.text
+          Click on the "Use Assistant" button. 
+      %li
+        %h4.number 3
+        %p.image
+          %img{:src => "/images/howto_03.png"}
+        %p.text
+          Clicking on the link above will bring you to an external page where you can configure the settings for each function.  
+
+#reminder
+  %section.about
+    .inner
+      %h1 Reminder
+      %ul
+        %li
+          .image
+            %img{:src => "/images/reminder_about_01.png"}
+          .description
+            %h2 Let your Assistant remind you about the monthly tasks you have a tendency to forget!
+            %p It can be tedious to remember to carry out those repetitive but necessary monthly tasks. Tasks that are shared across the entire team? Even more wearisome!
+            %p With the youRoom Assistant's Reminder function, you can now store a message in advance to be posted on youRoom during a fixed date every month.
+        %li
+          .image
+            %img{:src => "/images/reminder_about_02.png"}
+          .description
+            %h2 Comes with task progress visualization too!
+            %p Start the ball rolling on your tasks with your Assistant's monthly gentle reminder posts. Teams that are frequent users of youRoom should receive these messages naturally. An excellent tool for task management to begin with, youRoom is extremely compatible with the Reminder function.
+      .cases
+        %h2 You can use it to:
+        %ul
+          %li
+            %i.icon-caret-right
+            Remind yourself to issue those monthly invoices.
+          %li
+            %i.icon-caret-right
+            Instruct team members to remember to input their monthly expenses.
+  %section.howto
+    .inner
+      %h2
+        %i.icon-wrench
+        Configuring a Reminder:
+      %ol
+        %li
+          %h4.number 1
+          .image
+            %img{:src => '/images/reminder_howto_01.png'}
+          %p.text
+            Click on the "Create Reminder" link in the youRoom Assistant's settings page. 
+        %li
+          %h4.number 2
+          .image
+            %img{:src => '/images/reminder_howto_02.png'}
+          %p.text
+            Enter your scheduled day and message. 
+        %li
+          %h4.number 3
+          .image
+            %img{:src => '/images/reminder_howto_03.png'}
+          %p.text
+            Click on the "Create Reminder setting" button, and you're done! Once the scheduled day arrives, you'll see your message being posted to youRoom.
+#twitter
+  %section.about
+    .inner
+      %h1
+        Twitter Import
+      %ul
+        %li
+          .image
+            %img{:src => "/images/twitter_about_01.png"}
+          .description
+            %h2 Collect and share tweets with your team!
+            %p It goes without saying that we're all interested in tweets about our products and services.
+            %p The youRoom Assistant can scan and obtain tweets with certain keywords inside and post them to youRoom at regular intervals.
+            %p The posted tweets can be shared among teammates. And if there's a tweet you wish to highlight, simply comment on the post. Fully utilize this youRoom function to support your users!
+      .cases
+        %h2 You can use it to:
+        %ul
+          %li
+            %i.icon-caret-right
+            Share word of mouth progress on your products with your team.
+          %li
+            %i.icon-caret-right
+            Collect tweets of an event using the hashtag.
+  %section.howto
+    .inner
+      %h2
+        %i.icon-wrench
+        Configuring Twitter Import
+      %ol
+        %li
+          %h4.number 1
+          .image
+            %img{:src => "/images/twitter_howto_01.png"}
+          %p.text
+            Click on the "Authenticate with Twitter" button to authenticate yourself with Twitter. (Only for the first time.) 
+        %li
+          %h4.number 2
+          .image
+            %img{:src => "/images/twitter_howto_02.png"}
+          %p.text
+            Define the keywords to look out for on Twitter (left textbox). You can also define keywords to exclude (right textbox). Separate multiple keywords with a comma (,). 
+        %li
+          %h4.number 3
+          .image
+            %img{:src => "/images/twitter_howto_03.png"}
+          %p.text
+            Click on the button to finish the configuration. Now, tweets that match all your predefined conditions will be posted to youRoom on a regular basis! 
+
+#pivotal_tracker
+  %section.about
+    .inner
+      %h1 Interconnectivity with Pivotal Tracker
+      %ul
+        %li
+          .image
+            %img{:src => "/images/pivotal_about_01.png"}
+          .description
+            %h2 Make more Agile software by linking Pivotal Tracker and youRoom up!
+            %p Teams developing software on Agile can now make fuller use of youRoom.
+            %p Pivotal Tracker is also the best request management tool for Agile development. 
+            %p By integrating these two tools using the youRoom Assistant, your Agile software development can now go even faster than ever before.
+        %li
+          .image
+            %img{:src => "/images/pivotal_about_02.png"}
+          .description
+            %h2 Immediately convert youRoom discussions into tickets
+            %p In the event you wish to open a ticket on Pivotal Tracker for a youRoom discussion, entering the same information into Pivotal Tracker is no longer a dry and tedious process.
+            %p Automatically create Pivotal Tracker tickets with comments formatted in a particular way, by introducing the youRoom Assistant into your rooms!
+            %p The ticket will also contain the youRoom discussion URL in its description panel.
+        %li
+          .image
+            %img{:src => "/images/pivotal_about_03.png"}
+          .description
+            %h2 Get a hold of your development status on youRoom!
+            %p You'll receive notification on youRoom once your Pivotal Tracker tickets reach the next stage. Now you can have a better grasp of your product's development status by checking youRoom, instead of popping over to Pivotal Tracker for a look every now and then!
+  %section.howto
+    .inner
+      %h2
+        %i.icon-wrench
+        Configuring Pivotal Tracker Interconnectivity
+      %ol
+        %li
+          %h4.number 1
+          .image
+            %img{:src => "/images/pivotal_howto_01.png"}
+          %p.text
+            Access Pivotal Tracker and check for the API Token displayed on your 
+            %a{href: "https://www.pivotaltracker.com/profile", target: "_blank"}PROFILE page
+            and the Project ID displayed in your Project page URL. 
+        %li
+          %h4.number 2
+          .image
+            %img{:src => "/images/pivotal_howto_02.png"}
+          %p.text
+            Navigate to the Assistant's room settings screen, enter the API Token and Project ID into the textboxes provided, and you're done! 
+        %li
+          %h4.number 3
+          .image
+            %img{:src => "/images/pivotal_about_02.png"}
+          %p.text
+            Thereafter, you can now exchange information between Pivotal Tracker and youRoom. The format to use in your comments for converting youRoom discussions into Pivotal Tracker tickets is: #pivo:(ticket title) 
