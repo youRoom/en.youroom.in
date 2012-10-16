@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,50 +20,50 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -261,7 +261,6 @@ header {
   background-image: -webkit-linear-gradient(top, #474940 0%, #33362c 100%);
   background-image: -moz-linear-gradient(top, #474940 0%, #33362c 100%);
   background-image: -o-linear-gradient(top, #474940 0%, #33362c 100%);
-  background-image: -ms-linear-gradient(top, #474940 0%, #33362c 100%);
   background-image: linear-gradient(top, #474940 0%, #33362c 100%);
   border-bottom: white solid 1px;
   zoom: 1;
@@ -328,7 +327,6 @@ header nav ul li a {
   background-image: -webkit-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: -moz-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: -o-linear-gradient(top, #31bad8 0%, #237f93 100%);
-  background-image: -ms-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: linear-gradient(top, #31bad8 0%, #237f93 100%);
   line-height: 22px;
   height: 22px;
@@ -456,7 +454,6 @@ section#movie .contents hgroup .sign_up a {
   background-image: -webkit-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: -moz-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: -o-linear-gradient(top, #31bad8 0%, #237f93 100%);
-  background-image: -ms-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: linear-gradient(top, #31bad8 0%, #237f93 100%);
 }
 /* line 64, ../sass/mixins.sass */
@@ -495,7 +492,6 @@ section#movie .contents hgroup .sign_up a span {
   background-image: -webkit-linear-gradient(top, #055e72 0%, #023844 100%);
   background-image: -moz-linear-gradient(top, #055e72 0%, #023844 100%);
   background-image: -o-linear-gradient(top, #055e72 0%, #023844 100%);
-  background-image: -ms-linear-gradient(top, #055e72 0%, #023844 100%);
   background-image: linear-gradient(top, #055e72 0%, #023844 100%);
 }
 /* line 143, ../sass/basic.sass */
@@ -639,7 +635,6 @@ section#about .contents .problems p.sign_up a {
   background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
-  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
 /* line 64, ../sass/mixins.sass */
@@ -737,7 +732,6 @@ section#about .contents .problems .solution h3 {
   background-image: -webkit-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: -moz-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: -o-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
-  background-image: -ms-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: linear-gradient(top, #9ad36b 0%, #89c25b 100%);
 }
 /* line 213, ../sass/basic.sass */
@@ -1109,7 +1103,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
-  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
 /* line 64, ../sass/mixins.sass */
@@ -1470,7 +1463,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
-  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
 /* line 64, ../sass/mixins.sass */
@@ -1542,8 +1534,8 @@ section#faq .contents ul li.faq p {
   float: right;
   width: 420px;
   margin: -40px 0 0 0;
-  border: #4682b4 solid 1px;
-  background: #4682b4;
+  border: steelblue solid 1px;
+  background: steelblue;
   color: white;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1600,7 +1592,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: -moz-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: -o-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
-  background-image: -ms-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
 }
 /* line 3, ../sass/mixins.sass */
@@ -1702,7 +1693,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: -moz-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: -o-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
-  background-image: -ms-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
 }
 /* line 635, ../sass/basic.sass */
@@ -1738,7 +1728,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: -moz-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: -o-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
-  background-image: -ms-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
 }
 /* line 3, ../sass/mixins.sass */
@@ -1790,7 +1779,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: -moz-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: -o-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
-  background-image: -ms-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
 }
 /* line 674, ../sass/basic.sass */
@@ -1902,7 +1890,6 @@ section#faq .contents ul li.faq p {
   background-image: -webkit-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: -moz-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: -o-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
-  background-image: -ms-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: linear-gradient(top, #4b91c6 0%, #1e5799 100%);
 }
 /* line 64, ../sass/mixins.sass */
@@ -2352,7 +2339,7 @@ section#faq .contents ul li.faq p {
   list-style-type: circle;
 }
 
-/* line 5, ../sass/english.sass */
+/* line 8, ../sass/english.sass */
 body#en section#movie .contents hgroup h1 {
   display: block;
   background: url(../images/movie_hgroup_h1.png) no-repeat;
@@ -2360,40 +2347,40 @@ body#en section#movie .contents hgroup h1 {
   text-indent: -9999px;
   margin: 0 0 12px 0;
 }
-/* line 11, ../sass/english.sass */
+/* line 14, ../sass/english.sass */
 body#en section#movie .contents hgroup h2 {
   display: block;
   background: url(../images/movie_hgroup_h2.png) no-repeat;
   height: 62px;
   text-indent: -9999px;
 }
-/* line 16, ../sass/english.sass */
+/* line 19, ../sass/english.sass */
 body#en section#movie .contents hgroup h3 {
   font-size: 18px;
   padding-top: 20px;
   line-height: 1.4;
 }
-/* line 20, ../sass/english.sass */
+/* line 23, ../sass/english.sass */
 body#en section#movie .contents hgroup p {
   color: #333330;
 }
-/* line 22, ../sass/english.sass */
+/* line 25, ../sass/english.sass */
 body#en section#movie .contents hgroup .sign_up {
   margin-top: 32px;
   padding: 24px 0 0 0;
 }
-/* line 25, ../sass/english.sass */
+/* line 28, ../sass/english.sass */
 body#en section#movie .contents hgroup .sign_up a {
   font-size: 22px;
 }
-/* line 27, ../sass/english.sass */
+/* line 30, ../sass/english.sass */
 body#en section#movie .contents hgroup p {
   font-size: 11px;
   text-align: center;
   padding: 12px 0 0 0;
 }
 
-/* line 36, ../sass/english.sass */
+/* line 39, ../sass/english.sass */
 body#en section#about .contents .description h1 {
   background: url(../images/en/about_h1.png);
   width: 428px;
@@ -2402,40 +2389,40 @@ body#en section#about .contents .description h1 {
   margin: 0 auto 20px auto;
   text-indent: -9999px;
 }
-/* line 43, ../sass/english.sass */
+/* line 46, ../sass/english.sass */
 body#en section#about .contents .description p {
   line-height: 1.4;
   margin: 0 0 20px 0;
   font-size: 15px;
 }
-/* line 47, ../sass/english.sass */
+/* line 50, ../sass/english.sass */
 body#en section#about .contents .description p strong {
   font-weight: bold;
   color: black;
 }
-/* line 50, ../sass/english.sass */
+/* line 53, ../sass/english.sass */
 body#en section#about .contents .problems {
   zoom: 1;
   padding: 0 0 30px 0;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems:before, body#en section#about .contents .problems:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems:after {
   clear: both;
 }
-/* line 53, ../sass/english.sass */
+/* line 56, ../sass/english.sass */
 body#en section#about .contents .problems p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, ../sass/mixins.sass */
+/* line 75, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a {
   display: block;
   text-decoration: none;
@@ -2466,24 +2453,23 @@ body#en section#about .contents .problems p.sign_up a {
   background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
-  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, ../sass/mixins.sass */
+/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a:link, body#en section#about .contents .problems p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, ../sass/mixins.sass */
+/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a:hover, body#en section#about .contents .problems p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, ../sass/mixins.sass */
+/* line 95, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, ../sass/mixins.sass */
+/* line 99, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -2504,24 +2490,24 @@ body#en section#about .contents .problems p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 55, ../sass/english.sass */
+/* line 58, ../sass/english.sass */
 body#en section#about .contents .problems .with_no_waste {
   clear: both;
   padding: 50px 0 30px 0;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems .with_no_waste:before, body#en section#about .contents .problems .with_no_waste:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems .with_no_waste:after {
   clear: both;
 }
-/* line 59, ../sass/english.sass */
+/* line 62, ../sass/english.sass */
 body#en section#about .contents .problems .problem {
   float: left;
   width: 420px;
@@ -2529,24 +2515,24 @@ body#en section#about .contents .problems .problem {
   padding: 0 50px 0 0;
   background: url(../images/problem.png) no-repeat right 70px;
 }
-/* line 65, ../sass/english.sass */
+/* line 68, ../sass/english.sass */
 body#en section#about .contents .problems .problem h2 {
   height: 83px;
   display: block;
   text-indent: -9999px;
 }
-/* line 69, ../sass/english.sass */
+/* line 72, ../sass/english.sass */
 body#en section#about .contents .problems .problem p {
   font-size: 13px;
   line-height: 1.4;
   margin-bottom: 10px;
 }
-/* line 73, ../sass/english.sass */
+/* line 76, ../sass/english.sass */
 body#en section#about .contents .problems .solution {
   float: right;
   width: 480px;
 }
-/* line 76, ../sass/english.sass */
+/* line 79, ../sass/english.sass */
 body#en section#about .contents .problems .solution h3 {
   padding: 6px 14px 5px 14px;
   border: #89c25b solid 1px;
@@ -2564,17 +2550,16 @@ body#en section#about .contents .problems .solution h3 {
   background-image: -webkit-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: -moz-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: -o-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
-  background-image: -ms-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: linear-gradient(top, #9ad36b 0%, #89c25b 100%);
 }
-/* line 84, ../sass/english.sass */
+/* line 87, ../sass/english.sass */
 body#en section#about .contents .problems .solution h3 span {
   background: url(../images/en/solution_h3.png) no-repeat left top;
   height: 28px;
   display: block;
   text-indent: -9999px;
 }
-/* line 89, ../sass/english.sass */
+/* line 92, ../sass/english.sass */
 body#en section#about .contents .problems .solution .body {
   border-bottom: #89c25b solid 5px;
   border-left: #89c25b solid 5px;
@@ -2589,37 +2574,37 @@ body#en section#about .contents .problems .solution .body {
   background: rgba(255, 255, 255, 0.8);
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems .solution .body:before, body#en section#about .contents .problems .solution .body:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .problems .solution .body:after {
   clear: both;
 }
-/* line 98, ../sass/english.sass */
+/* line 101, ../sass/english.sass */
 body#en section#about .contents .problems .solution .body p {
   line-height: 1.4;
   font-size: 13px;
   margin: 0 0 1.4em 0;
 }
-/* line 103, ../sass/english.sass */
+/* line 106, ../sass/english.sass */
 body#en section#about .contents .problems .solution .body a img {
   margin: 0 0 10px 16px;
   float: right;
 }
-/* line 107, ../sass/english.sass */
+/* line 110, ../sass/english.sass */
 body#en section#about .contents .problems .high-speed h2 {
   background: url(../images/en/high-speed_h2.png) no-repeat left top;
 }
-/* line 110, ../sass/english.sass */
+/* line 113, ../sass/english.sass */
 body#en section#about .contents .problems .with_no_waste h2 {
   background: url(../images/en/with_no_waste_h2.png) no-repeat left top;
 }
-/* line 112, ../sass/english.sass */
+/* line 115, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere {
   clear: both;
   width: 730px;
@@ -2634,12 +2619,12 @@ body#en section#about .contents .anytime_anywhere {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 121, ../sass/english.sass */
+/* line 124, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere .inner {
   padding: 0 260px 0 0;
   background: url(../images/anytime_anywhere.png) no-repeat right bottom;
 }
-/* line 124, ../sass/english.sass */
+/* line 127, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere .inner h2 {
   font-size: 20px;
   font-weight: bold;
@@ -2650,7 +2635,7 @@ body#en section#about .contents .anytime_anywhere .inner h2 {
   padding: 0 0 0 42px;
   text-shadow: white 0 1px 0;
 }
-/* line 133, ../sass/english.sass */
+/* line 136, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere .inner p {
   line-height: 1.4;
   display: block;
@@ -2658,65 +2643,65 @@ body#en section#about .contents .anytime_anywhere .inner p {
   color: #5c5845;
   margin-bottom: 7px;
 }
-/* line 142, ../sass/english.sass */
+/* line 145, ../sass/english.sass */
 body#en section#about .contents .functions, body#en section#about .contents .terms {
   clear: both;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .functions:before, body#en section#about .contents .functions:after, body#en section#about .contents .terms:before, body#en section#about .contents .terms:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .functions:after, body#en section#about .contents .terms:after {
   clear: both;
 }
-/* line 145, ../sass/english.sass */
+/* line 148, ../sass/english.sass */
 body#en section#about .contents .functions h2, body#en section#about .contents .terms h2 {
   font-size: 22px;
   display: block;
   margin: 0 0 16px 0;
   font-weight: bold;
 }
-/* line 150, ../sass/english.sass */
+/* line 153, ../sass/english.sass */
 body#en section#about .contents .functions h2 span, body#en section#about .contents .terms h2 span {
   font-size: 12px;
   font-weight: normal;
   margin: 0 0 0 10px;
 }
-/* line 155, ../sass/english.sass */
+/* line 158, ../sass/english.sass */
 body#en section#about .contents .functions .description p, body#en section#about .contents .terms .description p {
   display: block;
   margin: 0 0 18px 0;
 }
-/* line 158, ../sass/english.sass */
+/* line 161, ../sass/english.sass */
 body#en section#about .contents .functions ul, body#en section#about .contents .terms ul {
   zoom: 1;
   width: 100%;
   float: left;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .functions ul:before, body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:before, body#en section#about .contents .terms ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:after {
   clear: both;
 }
-/* line 163, ../sass/english.sass */
+/* line 166, ../sass/english.sass */
 body#en section#about .contents .functions ul .function h3, body#en section#about .contents .terms ul .function h3 {
   font-weight: bold;
   font-size: 13px;
   line-height: 1.4;
   margin: 0 0 10px 0;
 }
-/* line 168, ../sass/english.sass */
+/* line 171, ../sass/english.sass */
 body#en section#about .contents .functions ul .function p, body#en section#about .contents .terms ul .function p {
   line-height: 1.4;
   color: #504e0c;
@@ -2729,36 +2714,36 @@ body#en section#about .contents .functions ul .function p, body#en section#about
   border-radius: 6px;
 }
 
-/* line 177, ../sass/english.sass */
+/* line 180, ../sass/english.sass */
 body#en section#faq .contents h1 {
   background: url(../images/en/faq_h1.png) no-repeat;
 }
-/* line 180, ../sass/english.sass */
+/* line 183, ../sass/english.sass */
 body#en section#faq .contents ul li.faq {
   display: block;
   padding: 0 0 28px 0;
   clear: both;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#faq .contents ul li.faq:before, body#en section#faq .contents ul li.faq:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en section#faq .contents ul li.faq:after {
   clear: both;
 }
-/* line 185, ../sass/english.sass */
+/* line 188, ../sass/english.sass */
 body#en section#faq .contents ul li.faq h2 {
   font-size: 20px;
   float: left;
   width: 240px;
   line-height: 1.4;
 }
-/* line 190, ../sass/english.sass */
+/* line 193, ../sass/english.sass */
 body#en section#faq .contents ul li.faq p {
   float: right;
   width: 510px;
@@ -2766,20 +2751,20 @@ body#en section#faq .contents ul li.faq p {
   line-height: 1.4;
 }
 
-/* line 200, ../sass/english.sass */
+/* line 203, ../sass/english.sass */
 body#en #voices_senes .contents h1 {
   background: url(../images/en/voices_senes_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 206, ../sass/english.sass */
+/* line 209, ../sass/english.sass */
 body#en #voices_senes .contents p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, ../sass/mixins.sass */
+/* line 75, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a {
   display: block;
   text-decoration: none;
@@ -2810,24 +2795,23 @@ body#en #voices_senes .contents p.sign_up a {
   background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
-  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, ../sass/mixins.sass */
+/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a:link, body#en #voices_senes .contents p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, ../sass/mixins.sass */
+/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a:hover, body#en #voices_senes .contents p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, ../sass/mixins.sass */
+/* line 95, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, ../sass/mixins.sass */
+/* line 99, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -2848,7 +2832,7 @@ body#en #voices_senes .contents p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 210, ../sass/english.sass */
+/* line 213, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p {
   background: url("../images/voices_p.gif") no-repeat left top;
   margin: 6px 40px 0 0;
@@ -2861,30 +2845,30 @@ body#en #voices_senes .contents .voices .voice p {
   border-radius: 6px;
   padding: 29px 0 20px 20px;
 }
-/* line 217, ../sass/english.sass */
+/* line 220, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p span {
   display: block;
 }
-/* line 219, ../sass/english.sass */
+/* line 222, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p .name {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 222, ../sass/english.sass */
+/* line 225, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p.message {
   background: none;
   background-color: white;
   padding: 20px;
 }
-/* line 226, ../sass/english.sass */
+/* line 229, ../sass/english.sass */
 body#en #voices_senes .contents .voices .center {
   margin: 0 10px;
 }
-/* line 228, ../sass/english.sass */
+/* line 231, ../sass/english.sass */
 body#en #voices_senes .contents .companies {
   padding: 0 0 30px 0;
 }
-/* line 230, ../sass/english.sass */
+/* line 233, ../sass/english.sass */
 body#en #voices_senes .contents .companies h2 {
   font-size: 14px;
   display: block;
@@ -2905,46 +2889,46 @@ body#en #voices_senes .contents .companies h2 {
   text-align: center;
   font-weight: normal;
 }
-/* line 243, ../sass/english.sass */
+/* line 246, ../sass/english.sass */
 body#en #voices_senes .contents .companies ul {
   zoom: 1;
   clear: both;
   padding: 0 0 20px 0;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .companies ul:before, body#en #voices_senes .contents .companies ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .companies ul:after {
   clear: both;
 }
-/* line 247, ../sass/english.sass */
+/* line 250, ../sass/english.sass */
 body#en #voices_senes .contents .companies ul li.company {
   float: left;
   display: block;
   padding: 0 5px;
 }
-/* line 251, ../sass/english.sass */
+/* line 254, ../sass/english.sass */
 body#en #voices_senes .contents .medias {
   zoom: 1;
   margin: 0 0 30px 0;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .medias:before, body#en #voices_senes .contents .medias:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .medias:after {
   clear: both;
 }
-/* line 254, ../sass/english.sass */
+/* line 257, ../sass/english.sass */
 body#en #voices_senes .contents .medias h2 {
   font-size: 14px;
   display: block;
@@ -2965,136 +2949,136 @@ body#en #voices_senes .contents .medias h2 {
   text-align: center;
   font-weight: normal;
 }
-/* line 267, ../sass/english.sass */
+/* line 270, ../sass/english.sass */
 body#en #voices_senes .contents .medias ul {
   zoom: 1;
   clear: both;
   padding: 0 0 20px 40px;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .medias ul:before, body#en #voices_senes .contents .medias ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .medias ul:after {
   clear: both;
 }
-/* line 271, ../sass/english.sass */
+/* line 274, ../sass/english.sass */
 body#en #voices_senes .contents .medias ul li.media {
   float: left;
   display: block;
   padding: 0 5px;
 }
-/* line 275, ../sass/english.sass */
+/* line 278, ../sass/english.sass */
 body#en #voices_senes .contents .senes {
   clear: both;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .senes:before, body#en #voices_senes .contents .senes:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .senes:after {
   clear: both;
 }
-/* line 279, ../sass/english.sass */
+/* line 282, ../sass/english.sass */
 body#en #voices_senes .contents .senes h2 span {
   font-size: 12px;
   font-weight: normal;
   margin: 0 0 0 10px;
 }
-/* line 284, ../sass/english.sass */
+/* line 287, ../sass/english.sass */
 body#en #voices_senes .contents .senes .description p {
   display: block;
   margin: 0 0 18px 0;
 }
-/* line 287, ../sass/english.sass */
+/* line 290, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul {
   zoom: 1;
   width: 100%;
   float: left;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .senes ul:before, body#en #voices_senes .contents .senes ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #voices_senes .contents .senes ul:after {
   clear: both;
 }
-/* line 291, ../sass/english.sass */
+/* line 294, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene {
   float: left;
   font-size: 13px;
   width: 280px;
   height: 300px;
 }
-/* line 296, ../sass/english.sass */
+/* line 299, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene h3 {
   font-weight: bold;
   font-size: 13px;
   line-height: 1.6;
   margin: 0 0 10px 0;
 }
-/* line 301, ../sass/english.sass */
+/* line 304, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene p {
   line-height: 1.4;
   color: #504e0c;
 }
-/* line 304, ../sass/english.sass */
+/* line 307, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene p a {
   font-weight: bold;
 }
-/* line 307, ../sass/english.sass */
+/* line 310, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene .image img {
   display: block;
   margin: 14px auto 0 auto;
 }
-/* line 310, ../sass/english.sass */
+/* line 313, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .center {
   border-left: white solid 1px;
   border-right: #eae3ce solid 1px;
   padding: 15px;
 }
-/* line 314, ../sass/english.sass */
+/* line 317, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .left {
   border-right: #eae3ce solid 1px;
   padding: 15px 15px 15px 0;
 }
-/* line 317, ../sass/english.sass */
+/* line 320, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .right {
   border-left: white solid 1px;
   padding: 15px 0 15px 15px;
 }
 
-/* line 323, ../sass/english.sass */
+/* line 326, ../sass/english.sass */
 body#en #pricing .contents h1 {
   background: url(../images/en/pricing_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 328, ../sass/english.sass */
+/* line 331, ../sass/english.sass */
 body#en #pricing .contents p {
   line-height: 1.4;
 }
-/* line 330, ../sass/english.sass */
+/* line 333, ../sass/english.sass */
 body#en #pricing .contents p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, ../sass/mixins.sass */
+/* line 75, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents p.sign_up a {
   display: block;
   text-decoration: none;
@@ -3125,24 +3109,23 @@ body#en #pricing .contents p.sign_up a {
   background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
-  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, ../sass/mixins.sass */
+/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents p.sign_up a:link, body#en #pricing .contents p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, ../sass/mixins.sass */
+/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents p.sign_up a:hover, body#en #pricing .contents p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, ../sass/mixins.sass */
+/* line 95, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, ../sass/mixins.sass */
+/* line 99, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -3163,21 +3146,21 @@ body#en #pricing .contents p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 332, ../sass/english.sass */
+/* line 335, ../sass/english.sass */
 body#en #pricing .contents .main {
   margin: 0 0 20px 0;
   float: left;
   width: 380px;
   font-size: 13px;
 }
-/* line 337, ../sass/english.sass */
+/* line 340, ../sass/english.sass */
 body#en #pricing .contents .premium_plan {
   padding: 12px;
   float: right;
   width: 520px;
   margin: -40px 0 20px 0;
-  border: #4682b4 solid 1px;
-  background: #4682b4;
+  border: steelblue solid 1px;
+  background: steelblue;
   color: white;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -3185,23 +3168,23 @@ body#en #pricing .contents .premium_plan {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 346, ../sass/english.sass */
+/* line 349, ../sass/english.sass */
 body#en #pricing .contents .premium_plan h2 {
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 8px 0;
 }
-/* line 350, ../sass/english.sass */
+/* line 353, ../sass/english.sass */
 body#en #pricing .contents .premium_plan strong {
   font-weight: bold;
   color: yellow;
   font-size: 14px;
 }
-/* line 354, ../sass/english.sass */
+/* line 357, ../sass/english.sass */
 body#en #pricing .contents .premium_plan ul {
   padding: 0 20px;
 }
-/* line 356, ../sass/english.sass */
+/* line 359, ../sass/english.sass */
 body#en #pricing .contents .premium_plan ul li {
   display: block;
   line-height: 1.3;
@@ -3210,7 +3193,7 @@ body#en #pricing .contents .premium_plan ul li {
   padding: 0 0 0 14px;
   background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
 }
-/* line 363, ../sass/english.sass */
+/* line 366, ../sass/english.sass */
 body#en #pricing .contents .fan_plan {
   position: relative;
   clear: both;
@@ -3234,21 +3217,20 @@ body#en #pricing .contents .fan_plan {
   background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: -moz-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: -o-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
-  background-image: -ms-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .fan_plan:before, body#en #pricing .contents .fan_plan:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .fan_plan:after {
   clear: both;
 }
-/* line 375, ../sass/english.sass */
+/* line 378, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .recommend {
   background: url(../images/recommend.png) no-repeat;
   width: 87px;
@@ -3259,7 +3241,7 @@ body#en #pricing .contents .fan_plan .recommend {
   text-indent: -9999px;
   display: block;
 }
-/* line 385, ../sass/english.sass */
+/* line 388, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .price {
   font-weight: bold;
   font-size: 34px;
@@ -3269,7 +3251,7 @@ body#en #pricing .contents .fan_plan .price {
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 393, ../sass/english.sass */
+/* line 396, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .description {
   background: #fcf5bb;
   padding: 12px 18px;
@@ -3280,34 +3262,34 @@ body#en #pricing .contents .fan_plan .description {
   border-radius: 4px;
   border: #f8ec88 solid 1px;
 }
-/* line 398, ../sass/english.sass */
+/* line 401, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .description h3 {
   float: left;
   margin: 0 0 6px 0;
   font-weight: bold;
   font-size: 16px;
 }
-/* line 403, ../sass/english.sass */
+/* line 406, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .description p {
   clear: both;
   color: #595852;
 }
-/* line 406, ../sass/english.sass */
+/* line 409, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan {
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan:before, body#en #pricing .contents .enterprise_plan:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan:after {
   clear: both;
 }
-/* line 408, ../sass/english.sass */
+/* line 411, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan h2 {
   border: #073a60 solid 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, rgba(255, 255, 255, 0.1) 0 1px 2px 2px inset;
@@ -3327,10 +3309,9 @@ body#en #pricing .contents .enterprise_plan h2 {
   background-image: -webkit-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: -moz-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: -o-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
-  background-image: -ms-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
 }
-/* line 416, ../sass/english.sass */
+/* line 419, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan h2 span {
   display: block;
   font-weight: bold;
@@ -3341,7 +3322,7 @@ body#en #pricing .contents .enterprise_plan h2 span {
   color: white;
   text-shadow: #073a60 0 1px 0;
 }
-/* line 425, ../sass/english.sass */
+/* line 428, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner {
   zoom: 1;
   padding: 18px 26px;
@@ -3363,34 +3344,33 @@ body#en #pricing .contents .enterprise_plan .inner {
   background-image: -webkit-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: -moz-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: -o-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
-  background-image: -ms-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner:before, body#en #pricing .contents .enterprise_plan .inner:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner:after {
   clear: both;
 }
-/* line 435, ../sass/english.sass */
+/* line 438, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .description {
   padding: 0 0 30px 0;
 }
-/* line 437, ../sass/english.sass */
+/* line 440, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .description p {
   font-size: 14px;
 }
-/* line 439, ../sass/english.sass */
+/* line 442, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features {
   padding: 0 0 0 30px;
   margin: 0 0 40px 0;
 }
-/* line 442, ../sass/english.sass */
+/* line 445, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features h3 {
   font-size: 13px;
   font-weight: bold;
@@ -3415,15 +3395,14 @@ body#en #pricing .contents .enterprise_plan .inner .features h3 {
   background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: -moz-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: -o-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
-  background-image: -ms-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
 }
-/* line 455, ../sass/english.sass */
+/* line 458, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features ul {
   padding: 0 40px;
   background: url(../images/enterprise_plan.png) no-repeat 650px center;
 }
-/* line 458, ../sass/english.sass */
+/* line 461, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features ul li {
   display: block;
   line-height: 1.6;
@@ -3432,7 +3411,7 @@ body#en #pricing .contents .enterprise_plan .inner .features ul li {
   padding: 0 0 0 13px;
   background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
 }
-/* line 465, ../sass/english.sass */
+/* line 468, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry {
   clear: both;
   position: relative;
@@ -3448,34 +3427,34 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry {
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px 0 inset;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry:before, body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
   clear: both;
 }
-/* line 473, ../sass/english.sass */
+/* line 476, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry p.image {
   float: left;
   padding: 0 20px 0 0;
 }
-/* line 476, ../sass/english.sass */
+/* line 479, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts {
   float: left;
   width: 660px;
 }
-/* line 479, ../sass/english.sass */
+/* line 482, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts h3 {
   font-size: 16px;
   font-weight: bold;
   margin: 0 0 12px 0;
 }
-/* line 484, ../sass/english.sass */
+/* line 487, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li {
   display: block;
   line-height: 1.5;
@@ -3483,26 +3462,26 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li {
   font-size: 13px;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:before, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   clear: both;
 }
-/* line 490, ../sass/english.sass */
+/* line 493, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li h4 {
   display: inline;
 }
-/* line 492, ../sass/english.sass */
+/* line 495, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li p {
   display: inline;
 }
-/* line 495, ../sass/english.sass */
+/* line 498, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a {
   position: absolute;
   text-shadow: #155a90 0 -1px 0;
@@ -3527,79 +3506,78 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form
   background-image: -webkit-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: -moz-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: -o-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
-  background-image: -ms-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: linear-gradient(top, #4b91c6 0%, #1e5799 100%);
 }
-/* line 64, ../sass/mixins.sass */
+/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:link, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:visited {
   opacity: 1;
 }
-/* line 67, ../sass/mixins.sass */
+/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:hover, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:active {
   opacity: 0.7;
 }
 
-/* line 514, ../sass/english.sass */
+/* line 517, ../sass/english.sass */
 body#en #communites .contents h1 {
   background: url(../images/en/communites_h1.png) no-repeat;
 }
-/* line 516, ../sass/english.sass */
+/* line 519, ../sass/english.sass */
 body#en #communites .contents p {
   font-size: 14px;
   line-height: 1.3;
 }
-/* line 519, ../sass/english.sass */
+/* line 522, ../sass/english.sass */
 body#en #communites .contents .sns {
   clear: both;
   margin: 30px 0 10px 0;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #communites .contents .sns:before, body#en #communites .contents .sns:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #communites .contents .sns:after {
   clear: both;
 }
-/* line 523, ../sass/english.sass */
+/* line 526, ../sass/english.sass */
 body#en #communites .contents .sns li {
   display: block;
   width: 225px;
   float: left;
   padding: 0 0 20px 0;
 }
-/* line 529, ../sass/english.sass */
+/* line 532, ../sass/english.sass */
 body#en #communites .contents .sns li a img {
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 532, ../sass/english.sass */
+/* line 535, ../sass/english.sass */
 body#en #communites .contents .sns li h2 {
   margin: 0 0 6px 0;
 }
-/* line 534, ../sass/english.sass */
+/* line 537, ../sass/english.sass */
 body#en #communites .contents .sns li h2 a {
   font-size: 13px;
   font-weight: bold;
 }
-/* line 537, ../sass/english.sass */
+/* line 540, ../sass/english.sass */
 body#en #communites .contents .sns li p {
   font-size: 12px;
   line-height: 1.3;
 }
-/* line 540, ../sass/english.sass */
+/* line 543, ../sass/english.sass */
 body#en #communites .contents .sns li.two {
   padding: 0 20px 20px 20px;
 }
-/* line 542, ../sass/english.sass */
+/* line 545, ../sass/english.sass */
 body#en #communites .contents .sns li.three {
   padding: 0 20px 20px 0;
 }
-/* line 545, ../sass/english.sass */
+/* line 548, ../sass/english.sass */
 body#en #communites .contents .developers {
   padding: 10px 0 0 14px;
   border: #89c25b solid 4px;
@@ -3613,150 +3591,150 @@ body#en #communites .contents .developers {
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #communites .contents .developers:before, body#en #communites .contents .developers:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #communites .contents .developers:after {
   clear: both;
 }
-/* line 553, ../sass/english.sass */
+/* line 556, ../sass/english.sass */
 body#en #communites .contents .developers li {
   width: 180px;
   float: left;
 }
-/* line 556, ../sass/english.sass */
+/* line 559, ../sass/english.sass */
 body#en #communites .contents .developers li h3 {
   margin: 0 0 6px 0;
 }
-/* line 558, ../sass/english.sass */
+/* line 561, ../sass/english.sass */
 body#en #communites .contents .developers h2 {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 562, ../sass/english.sass */
+/* line 565, ../sass/english.sass */
 body#en #communites .contents .developers p {
   font-size: 12px;
   margin: 0 0 12px 0;
 }
-/* line 566, ../sass/english.sass */
+/* line 569, ../sass/english.sass */
 body#en #communites .contents .api h2 {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 570, ../sass/english.sass */
+/* line 573, ../sass/english.sass */
 body#en #communites .contents .api p {
   margin: 0 0 14px 0;
   font-size: 13px;
   line-height: 1.4;
 }
 
-/* line 577, ../sass/english.sass */
+/* line 580, ../sass/english.sass */
 body#en #inquiry .contents h1 {
   background: url(../images/en/inquiry_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 582, ../sass/english.sass */
+/* line 585, ../sass/english.sass */
 body#en #inquiry .contents iframe {
   margin: 0 0 0 60px;
 }
 
-/* line 585, ../sass/english.sass */
+/* line 588, ../sass/english.sass */
 body#en #company {
   background: url(../images/bg_cream.gif) #f8f8ee;
   padding: 50px 0;
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company:before, body#en #company:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company:after {
   clear: both;
 }
-/* line 589, ../sass/english.sass */
+/* line 592, ../sass/english.sass */
 body#en #company .contents {
   zoom: 1;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company .contents:before, body#en #company .contents:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company .contents:after {
   clear: both;
 }
-/* line 591, ../sass/english.sass */
+/* line 594, ../sass/english.sass */
 body#en #company .contents h1 {
   background: url(../images/en/company_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 596, ../sass/english.sass */
+/* line 599, ../sass/english.sass */
 body#en #company .contents p {
   line-height: 1.6;
   font-size: 13px;
 }
-/* line 599, ../sass/english.sass */
+/* line 602, ../sass/english.sass */
 body#en #company .contents .description {
   zoom: 1;
   padding: 0 0 40px 0;
   width: 500px;
   float: left;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company .contents .description:before, body#en #company .contents .description:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company .contents .description:after {
   clear: both;
 }
-/* line 604, ../sass/english.sass */
+/* line 607, ../sass/english.sass */
 body#en #company .contents .description .logo {
   margin: 0 0 20px 0;
 }
-/* line 607, ../sass/english.sass */
+/* line 610, ../sass/english.sass */
 body#en #company .contents .description .text p {
   font-size: 14px;
 }
-/* line 609, ../sass/english.sass */
+/* line 612, ../sass/english.sass */
 body#en #company .contents .members {
   float: left;
   zoom: 1;
   padding: 0 0 30px 30px;
 }
-/* line 3, ../sass/mixins.sass */
+/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company .contents .members:before, body#en #company .contents .members:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
+/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
 body#en #company .contents .members:after {
   clear: both;
 }
-/* line 613, ../sass/english.sass */
+/* line 616, ../sass/english.sass */
 body#en #company .contents .members li {
   display: block;
   float: left;
@@ -3764,12 +3742,12 @@ body#en #company .contents .members li {
   padding: 0 20px 0 0;
   text-align: center;
 }
-/* line 619, ../sass/english.sass */
+/* line 622, ../sass/english.sass */
 body#en #company .contents .members li h2 {
   font-size: 12px;
   margin: 0 0 2px 0;
 }
-/* line 622, ../sass/english.sass */
+/* line 625, ../sass/english.sass */
 body#en #company .contents .members li .image {
   display: block;
   height: 100px;
@@ -3786,7 +3764,7 @@ body#en #company .contents .members li .image {
   -moz-box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
   box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
 }
-/* line 631, ../sass/english.sass */
+/* line 634, ../sass/english.sass */
 body#en #company .contents .members li .image img {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -3796,12 +3774,12 @@ body#en #company .contents .members li .image img {
   width: 100px;
   height: auto;
 }
-/* line 635, ../sass/english.sass */
+/* line 638, ../sass/english.sass */
 body#en #company .contents .why {
   clear: both;
   width: 600px;
 }
-/* line 638, ../sass/english.sass */
+/* line 641, ../sass/english.sass */
 body#en #company .contents .why h2 {
   font-size: 14px;
   display: block;
@@ -3823,7 +3801,7 @@ body#en #company .contents .why h2 {
   font-weight: normal;
   margin: 0 0 20px 0;
 }
-/* line 652, ../sass/english.sass */
+/* line 655, ../sass/english.sass */
 body#en #company .contents .why p {
   clear: both;
   margin-bottom: 40px;
