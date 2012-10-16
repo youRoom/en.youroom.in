@@ -124,13 +124,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
-/* line 38, ../sass/global_nav.sass */
+/* line 39, ../sass/global_nav.sass */
 .sticky #main-nav ul {
   margin: 0 auto;
 }
 
-/* line 41, ../sass/global_nav.sass */
+/* line 42, ../sass/global_nav.sass */
 .top {
   position: fixed;
   right: 15px;
@@ -151,7 +152,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 10px;
   behavior: url(../PIE.htc);
 }
-/* line 60, ../sass/global_nav.sass */
+/* line 61, ../sass/global_nav.sass */
 .top:before {
   position: absolute;
   top: 11px;
@@ -161,28 +162,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-left: 11px solid transparent;
   border-right: 11px solid transparent;
 }
-/* line 68, ../sass/global_nav.sass */
+/* line 69, ../sass/global_nav.sass */
 .top:hover {
   color: #eeeeee;
 }
-/* line 70, ../sass/global_nav.sass */
+/* line 71, ../sass/global_nav.sass */
 .top:hover:before {
   border-bottom-color: #eeeeee;
 }
 
-/* line 73, ../sass/global_nav.sass */
+/* line 74, ../sass/global_nav.sass */
 .opacity .top {
   opacity: 1;
   -webkit-transition: opacity 700ms linear;
   -moz-transition: opacity 700ms linear;
   transition: opacity 700ms linear;
 }
-/* line 78, ../sass/global_nav.sass */
+/* line 79, ../sass/global_nav.sass */
 .opacity .top.hidden {
   opacity: 0;
 }
 
-/* line 81, ../sass/global_nav.sass */
+/* line 82, ../sass/global_nav.sass */
 .no-opacity .top.hidden {
   display: none;
 }
@@ -2405,14 +2406,14 @@ body#en section#about .contents .problems {
   zoom: 1;
   padding: 0 0 30px 0;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en section#about .contents .problems:before, body#en section#about .contents .problems:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en section#about .contents .problems:after {
   clear: both;
 }
@@ -2422,7 +2423,7 @@ body#en section#about .contents .problems p.sign_up {
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 75, ../sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a {
   display: block;
   text-decoration: none;
@@ -2455,21 +2456,21 @@ body#en section#about .contents .problems p.sign_up a {
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a:link, body#en section#about .contents .problems p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a:hover, body#en section#about .contents .problems p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 95, ../sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 99, ../sass/mixins.sass */
 body#en section#about .contents .problems p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -2496,14 +2497,14 @@ body#en section#about .contents .problems .with_no_waste {
   padding: 50px 0 30px 0;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en section#about .contents .problems .with_no_waste:before, body#en section#about .contents .problems .with_no_waste:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en section#about .contents .problems .with_no_waste:after {
   clear: both;
 }
@@ -2574,14 +2575,14 @@ body#en section#about .contents .problems .solution .body {
   background: rgba(255, 255, 255, 0.8);
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en section#about .contents .problems .solution .body:before, body#en section#about .contents .problems .solution .body:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en section#about .contents .problems .solution .body:after {
   clear: both;
 }
@@ -2648,14 +2649,14 @@ body#en section#about .contents .functions, body#en section#about .contents .ter
   clear: both;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en section#about .contents .functions:before, body#en section#about .contents .functions:after, body#en section#about .contents .terms:before, body#en section#about .contents .terms:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en section#about .contents .functions:after, body#en section#about .contents .terms:after {
   clear: both;
 }
@@ -2683,14 +2684,14 @@ body#en section#about .contents .functions ul, body#en section#about .contents .
   width: 100%;
   float: left;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en section#about .contents .functions ul:before, body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:before, body#en section#about .contents .terms ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:after {
   clear: both;
 }
@@ -2725,14 +2726,14 @@ body#en section#faq .contents ul li.faq {
   clear: both;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en section#faq .contents ul li.faq:before, body#en section#faq .contents ul li.faq:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en section#faq .contents ul li.faq:after {
   clear: both;
 }
@@ -2764,7 +2765,7 @@ body#en #voices_senes .contents p.sign_up {
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 75, ../sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a {
   display: block;
   text-decoration: none;
@@ -2797,21 +2798,21 @@ body#en #voices_senes .contents p.sign_up a {
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a:link, body#en #voices_senes .contents p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a:hover, body#en #voices_senes .contents p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 95, ../sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 99, ../sass/mixins.sass */
 body#en #voices_senes .contents p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -2895,14 +2896,14 @@ body#en #voices_senes .contents .companies ul {
   clear: both;
   padding: 0 0 20px 0;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #voices_senes .contents .companies ul:before, body#en #voices_senes .contents .companies ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #voices_senes .contents .companies ul:after {
   clear: both;
 }
@@ -2917,14 +2918,14 @@ body#en #voices_senes .contents .medias {
   zoom: 1;
   margin: 0 0 30px 0;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #voices_senes .contents .medias:before, body#en #voices_senes .contents .medias:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #voices_senes .contents .medias:after {
   clear: both;
 }
@@ -2955,14 +2956,14 @@ body#en #voices_senes .contents .medias ul {
   clear: both;
   padding: 0 0 20px 40px;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #voices_senes .contents .medias ul:before, body#en #voices_senes .contents .medias ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #voices_senes .contents .medias ul:after {
   clear: both;
 }
@@ -2977,14 +2978,14 @@ body#en #voices_senes .contents .senes {
   clear: both;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #voices_senes .contents .senes:before, body#en #voices_senes .contents .senes:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #voices_senes .contents .senes:after {
   clear: both;
 }
@@ -3005,14 +3006,14 @@ body#en #voices_senes .contents .senes ul {
   width: 100%;
   float: left;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #voices_senes .contents .senes ul:before, body#en #voices_senes .contents .senes ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #voices_senes .contents .senes ul:after {
   clear: both;
 }
@@ -3078,7 +3079,7 @@ body#en #pricing .contents p.sign_up {
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 75, ../sass/mixins.sass */
 body#en #pricing .contents p.sign_up a {
   display: block;
   text-decoration: none;
@@ -3111,21 +3112,21 @@ body#en #pricing .contents p.sign_up a {
   background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 body#en #pricing .contents p.sign_up a:link, body#en #pricing .contents p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 body#en #pricing .contents p.sign_up a:hover, body#en #pricing .contents p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 95, ../sass/mixins.sass */
 body#en #pricing .contents p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 99, ../sass/mixins.sass */
 body#en #pricing .contents p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -3219,14 +3220,14 @@ body#en #pricing .contents .fan_plan {
   background-image: -o-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #pricing .contents .fan_plan:before, body#en #pricing .contents .fan_plan:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #pricing .contents .fan_plan:after {
   clear: both;
 }
@@ -3278,14 +3279,14 @@ body#en #pricing .contents .fan_plan .description p {
 body#en #pricing .contents .enterprise_plan {
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan:before, body#en #pricing .contents .enterprise_plan:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan:after {
   clear: both;
 }
@@ -3346,14 +3347,14 @@ body#en #pricing .contents .enterprise_plan .inner {
   background-image: -o-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner:before, body#en #pricing .contents .enterprise_plan .inner:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner:after {
   clear: both;
 }
@@ -3427,14 +3428,14 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry {
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px 0 inset;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry:before, body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
   clear: both;
 }
@@ -3462,14 +3463,14 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li {
   font-size: 13px;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:before, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   clear: both;
 }
@@ -3508,11 +3509,11 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form
   background-image: -o-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: linear-gradient(top, #4b91c6 0%, #1e5799 100%);
 }
-/* line 64, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:link, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:visited {
   opacity: 1;
 }
-/* line 67, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:hover, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:active {
   opacity: 0.7;
 }
@@ -3532,14 +3533,14 @@ body#en #communites .contents .sns {
   margin: 30px 0 10px 0;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #communites .contents .sns:before, body#en #communites .contents .sns:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #communites .contents .sns:after {
   clear: both;
 }
@@ -3591,14 +3592,14 @@ body#en #communites .contents .developers {
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #communites .contents .developers:before, body#en #communites .contents .developers:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #communites .contents .developers:after {
   clear: both;
 }
@@ -3653,14 +3654,14 @@ body#en #company {
   padding: 50px 0;
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #company:before, body#en #company:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #company:after {
   clear: both;
 }
@@ -3668,14 +3669,14 @@ body#en #company:after {
 body#en #company .contents {
   zoom: 1;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #company .contents:before, body#en #company .contents:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #company .contents:after {
   clear: both;
 }
@@ -3698,14 +3699,14 @@ body#en #company .contents .description {
   width: 500px;
   float: left;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #company .contents .description:before, body#en #company .contents .description:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #company .contents .description:after {
   clear: both;
 }
@@ -3723,14 +3724,14 @@ body#en #company .contents .members {
   zoom: 1;
   padding: 0 0 30px 30px;
 }
-/* line 3, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 body#en #company .contents .members:before, body#en #company .contents .members:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/mat_aki/gh-pages/en.youroom.in/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 body#en #company .contents .members:after {
   clear: both;
 }

@@ -1,10 +1,8 @@
-/* line 5, ../sass/global_nav.sass */
 #main-nav-holder {
   height: 50px;
   overflow: hidden;
 }
 
-/* line 10, ../sass/global_nav.sass */
 #main-nav ul {
   margin: 0 auto 30px auto;
   height: 50px;
@@ -21,34 +19,28 @@
   z-index: 100;
   position: relative;
 }
-/* line 3, ../sass/mixins.sass */
 #main-nav ul:before, #main-nav ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, ../sass/mixins.sass */
 #main-nav ul:after {
   clear: both;
 }
-/* line 23, ../sass/global_nav.sass */
 #main-nav li {
   display: inline;
   padding: 0 15px;
   border-left: 1px solid #555555;
 }
-/* line 27, ../sass/global_nav.sass */
 #main-nav li:first-child {
   border-left: 0;
 }
-/* line 29, ../sass/global_nav.sass */
 #main-nav li a {
   color: white;
   text-decoration: none;
 }
 
-/* line 33, ../sass/global_nav.sass */
 .sticky #main-nav {
   position: fixed;
   top: 0;
@@ -56,12 +48,10 @@
   width: 100%;
   z-index: 100;
 }
-/* line 39, ../sass/global_nav.sass */
 .sticky #main-nav ul {
   margin: 0 auto;
 }
 
-/* line 42, ../sass/global_nav.sass */
 .top {
   position: fixed;
   right: 15px;
@@ -82,7 +72,6 @@
   border-radius: 10px;
   behavior: url(../PIE.htc);
 }
-/* line 61, ../sass/global_nav.sass */
 .top:before {
   position: absolute;
   top: 11px;
@@ -92,28 +81,23 @@
   border-left: 11px solid transparent;
   border-right: 11px solid transparent;
 }
-/* line 69, ../sass/global_nav.sass */
 .top:hover {
   color: #eeeeee;
 }
-/* line 71, ../sass/global_nav.sass */
 .top:hover:before {
   border-bottom-color: #eeeeee;
 }
 
-/* line 74, ../sass/global_nav.sass */
 .opacity .top {
   opacity: 1;
   -webkit-transition: opacity 700ms linear;
   -moz-transition: opacity 700ms linear;
   transition: opacity 700ms linear;
 }
-/* line 79, ../sass/global_nav.sass */
 .opacity .top.hidden {
   opacity: 0;
 }
 
-/* line 82, ../sass/global_nav.sass */
 .no-opacity .top.hidden {
   display: none;
 }

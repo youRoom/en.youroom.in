@@ -1,4 +1,4 @@
-/* line 8, ../sass/english.sass */
+/* line 9, ../sass/english.sass */
 body#en section#movie .contents hgroup h1 {
   display: block;
   background: url(../images/movie_hgroup_h1.png) no-repeat;
@@ -6,40 +6,40 @@ body#en section#movie .contents hgroup h1 {
   text-indent: -9999px;
   margin: 0 0 12px 0;
 }
-/* line 14, ../sass/english.sass */
+/* line 15, ../sass/english.sass */
 body#en section#movie .contents hgroup h2 {
   display: block;
   background: url(../images/movie_hgroup_h2.png) no-repeat;
   height: 62px;
   text-indent: -9999px;
 }
-/* line 19, ../sass/english.sass */
+/* line 20, ../sass/english.sass */
 body#en section#movie .contents hgroup h3 {
   font-size: 18px;
   padding-top: 20px;
   line-height: 1.4;
 }
-/* line 23, ../sass/english.sass */
+/* line 24, ../sass/english.sass */
 body#en section#movie .contents hgroup p {
   color: #333330;
 }
-/* line 25, ../sass/english.sass */
+/* line 26, ../sass/english.sass */
 body#en section#movie .contents hgroup .sign_up {
   margin-top: 32px;
   padding: 24px 0 0 0;
 }
-/* line 28, ../sass/english.sass */
+/* line 29, ../sass/english.sass */
 body#en section#movie .contents hgroup .sign_up a {
   font-size: 22px;
 }
-/* line 30, ../sass/english.sass */
+/* line 31, ../sass/english.sass */
 body#en section#movie .contents hgroup p {
   font-size: 11px;
   text-align: center;
   padding: 12px 0 0 0;
 }
 
-/* line 39, ../sass/english.sass */
+/* line 40, ../sass/english.sass */
 body#en section#about .contents .description h1 {
   background: url(../images/en/about_h1.png);
   width: 428px;
@@ -48,18 +48,18 @@ body#en section#about .contents .description h1 {
   margin: 0 auto 20px auto;
   text-indent: -9999px;
 }
-/* line 46, ../sass/english.sass */
+/* line 47, ../sass/english.sass */
 body#en section#about .contents .description p {
   line-height: 1.4;
   margin: 0 0 20px 0;
   font-size: 15px;
 }
-/* line 50, ../sass/english.sass */
+/* line 51, ../sass/english.sass */
 body#en section#about .contents .description p strong {
   font-weight: bold;
   color: black;
 }
-/* line 53, ../sass/english.sass */
+/* line 54, ../sass/english.sass */
 body#en section#about .contents .problems {
   zoom: 1;
   padding: 0 0 30px 0;
@@ -75,7 +75,7 @@ body#en section#about .contents .problems:before, body#en section#about .content
 body#en section#about .contents .problems:after {
   clear: both;
 }
-/* line 56, ../sass/english.sass */
+/* line 57, ../sass/english.sass */
 body#en section#about .contents .problems p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
@@ -149,7 +149,7 @@ body#en section#about .contents .problems p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 58, ../sass/english.sass */
+/* line 59, ../sass/english.sass */
 body#en section#about .contents .problems .with_no_waste {
   clear: both;
   padding: 50px 0 30px 0;
@@ -166,7 +166,7 @@ body#en section#about .contents .problems .with_no_waste:before, body#en section
 body#en section#about .contents .problems .with_no_waste:after {
   clear: both;
 }
-/* line 62, ../sass/english.sass */
+/* line 63, ../sass/english.sass */
 body#en section#about .contents .problems .problem {
   float: left;
   width: 420px;
@@ -174,24 +174,24 @@ body#en section#about .contents .problems .problem {
   padding: 0 50px 0 0;
   background: url(../images/problem.png) no-repeat right 70px;
 }
-/* line 68, ../sass/english.sass */
+/* line 69, ../sass/english.sass */
 body#en section#about .contents .problems .problem h2 {
   height: 83px;
   display: block;
   text-indent: -9999px;
 }
-/* line 72, ../sass/english.sass */
+/* line 73, ../sass/english.sass */
 body#en section#about .contents .problems .problem p {
   font-size: 13px;
   line-height: 1.4;
   margin-bottom: 10px;
 }
-/* line 76, ../sass/english.sass */
+/* line 77, ../sass/english.sass */
 body#en section#about .contents .problems .solution {
   float: right;
   width: 480px;
 }
-/* line 79, ../sass/english.sass */
+/* line 80, ../sass/english.sass */
 body#en section#about .contents .problems .solution h3 {
   padding: 6px 14px 5px 14px;
   border: #89c25b solid 1px;
@@ -211,14 +211,14 @@ body#en section#about .contents .problems .solution h3 {
   background-image: -o-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: linear-gradient(top, #9ad36b 0%, #89c25b 100%);
 }
-/* line 87, ../sass/english.sass */
+/* line 88, ../sass/english.sass */
 body#en section#about .contents .problems .solution h3 span {
   background: url(../images/en/solution_h3.png) no-repeat left top;
   height: 28px;
   display: block;
   text-indent: -9999px;
 }
-/* line 92, ../sass/english.sass */
+/* line 93, ../sass/english.sass */
 body#en section#about .contents .problems .solution .body {
   border-bottom: #89c25b solid 5px;
   border-left: #89c25b solid 5px;
@@ -244,26 +244,26 @@ body#en section#about .contents .problems .solution .body:before, body#en sectio
 body#en section#about .contents .problems .solution .body:after {
   clear: both;
 }
-/* line 101, ../sass/english.sass */
+/* line 102, ../sass/english.sass */
 body#en section#about .contents .problems .solution .body p {
   line-height: 1.4;
   font-size: 13px;
   margin: 0 0 1.4em 0;
 }
-/* line 106, ../sass/english.sass */
+/* line 107, ../sass/english.sass */
 body#en section#about .contents .problems .solution .body a img {
   margin: 0 0 10px 16px;
   float: right;
 }
-/* line 110, ../sass/english.sass */
+/* line 111, ../sass/english.sass */
 body#en section#about .contents .problems .high-speed h2 {
   background: url(../images/en/high-speed_h2.png) no-repeat left top;
 }
-/* line 113, ../sass/english.sass */
+/* line 114, ../sass/english.sass */
 body#en section#about .contents .problems .with_no_waste h2 {
   background: url(../images/en/with_no_waste_h2.png) no-repeat left top;
 }
-/* line 115, ../sass/english.sass */
+/* line 116, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere {
   clear: both;
   width: 730px;
@@ -278,12 +278,12 @@ body#en section#about .contents .anytime_anywhere {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 124, ../sass/english.sass */
+/* line 125, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere .inner {
   padding: 0 260px 0 0;
   background: url(../images/anytime_anywhere.png) no-repeat right bottom;
 }
-/* line 127, ../sass/english.sass */
+/* line 128, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere .inner h2 {
   font-size: 20px;
   font-weight: bold;
@@ -294,7 +294,7 @@ body#en section#about .contents .anytime_anywhere .inner h2 {
   padding: 0 0 0 42px;
   text-shadow: white 0 1px 0;
 }
-/* line 136, ../sass/english.sass */
+/* line 137, ../sass/english.sass */
 body#en section#about .contents .anytime_anywhere .inner p {
   line-height: 1.4;
   display: block;
@@ -302,7 +302,7 @@ body#en section#about .contents .anytime_anywhere .inner p {
   color: #5c5845;
   margin-bottom: 7px;
 }
-/* line 145, ../sass/english.sass */
+/* line 146, ../sass/english.sass */
 body#en section#about .contents .functions, body#en section#about .contents .terms {
   clear: both;
   zoom: 1;
@@ -318,25 +318,25 @@ body#en section#about .contents .functions:before, body#en section#about .conten
 body#en section#about .contents .functions:after, body#en section#about .contents .terms:after {
   clear: both;
 }
-/* line 148, ../sass/english.sass */
+/* line 149, ../sass/english.sass */
 body#en section#about .contents .functions h2, body#en section#about .contents .terms h2 {
   font-size: 22px;
   display: block;
   margin: 0 0 16px 0;
   font-weight: bold;
 }
-/* line 153, ../sass/english.sass */
+/* line 154, ../sass/english.sass */
 body#en section#about .contents .functions h2 span, body#en section#about .contents .terms h2 span {
   font-size: 12px;
   font-weight: normal;
   margin: 0 0 0 10px;
 }
-/* line 158, ../sass/english.sass */
+/* line 159, ../sass/english.sass */
 body#en section#about .contents .functions .description p, body#en section#about .contents .terms .description p {
   display: block;
   margin: 0 0 18px 0;
 }
-/* line 161, ../sass/english.sass */
+/* line 162, ../sass/english.sass */
 body#en section#about .contents .functions ul, body#en section#about .contents .terms ul {
   zoom: 1;
   width: 100%;
@@ -353,14 +353,14 @@ body#en section#about .contents .functions ul:before, body#en section#about .con
 body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:after {
   clear: both;
 }
-/* line 166, ../sass/english.sass */
+/* line 167, ../sass/english.sass */
 body#en section#about .contents .functions ul .function h3, body#en section#about .contents .terms ul .function h3 {
   font-weight: bold;
   font-size: 13px;
   line-height: 1.4;
   margin: 0 0 10px 0;
 }
-/* line 171, ../sass/english.sass */
+/* line 172, ../sass/english.sass */
 body#en section#about .contents .functions ul .function p, body#en section#about .contents .terms ul .function p {
   line-height: 1.4;
   color: #504e0c;
@@ -373,11 +373,11 @@ body#en section#about .contents .functions ul .function p, body#en section#about
   border-radius: 6px;
 }
 
-/* line 180, ../sass/english.sass */
+/* line 181, ../sass/english.sass */
 body#en section#faq .contents h1 {
   background: url(../images/en/faq_h1.png) no-repeat;
 }
-/* line 183, ../sass/english.sass */
+/* line 184, ../sass/english.sass */
 body#en section#faq .contents ul li.faq {
   display: block;
   padding: 0 0 28px 0;
@@ -395,14 +395,14 @@ body#en section#faq .contents ul li.faq:before, body#en section#faq .contents ul
 body#en section#faq .contents ul li.faq:after {
   clear: both;
 }
-/* line 188, ../sass/english.sass */
+/* line 189, ../sass/english.sass */
 body#en section#faq .contents ul li.faq h2 {
   font-size: 20px;
   float: left;
   width: 240px;
   line-height: 1.4;
 }
-/* line 193, ../sass/english.sass */
+/* line 194, ../sass/english.sass */
 body#en section#faq .contents ul li.faq p {
   float: right;
   width: 510px;
@@ -410,14 +410,14 @@ body#en section#faq .contents ul li.faq p {
   line-height: 1.4;
 }
 
-/* line 203, ../sass/english.sass */
+/* line 204, ../sass/english.sass */
 body#en #voices_senes .contents h1 {
   background: url(../images/en/voices_senes_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 209, ../sass/english.sass */
+/* line 210, ../sass/english.sass */
 body#en #voices_senes .contents p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
@@ -491,7 +491,7 @@ body#en #voices_senes .contents p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 213, ../sass/english.sass */
+/* line 214, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p {
   background: url("../images/voices_p.gif") no-repeat left top;
   margin: 6px 40px 0 0;
@@ -504,30 +504,30 @@ body#en #voices_senes .contents .voices .voice p {
   border-radius: 6px;
   padding: 29px 0 20px 20px;
 }
-/* line 220, ../sass/english.sass */
+/* line 221, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p span {
   display: block;
 }
-/* line 222, ../sass/english.sass */
+/* line 223, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p .name {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 225, ../sass/english.sass */
+/* line 226, ../sass/english.sass */
 body#en #voices_senes .contents .voices .voice p.message {
   background: none;
   background-color: white;
   padding: 20px;
 }
-/* line 229, ../sass/english.sass */
+/* line 230, ../sass/english.sass */
 body#en #voices_senes .contents .voices .center {
   margin: 0 10px;
 }
-/* line 231, ../sass/english.sass */
+/* line 232, ../sass/english.sass */
 body#en #voices_senes .contents .companies {
   padding: 0 0 30px 0;
 }
-/* line 233, ../sass/english.sass */
+/* line 234, ../sass/english.sass */
 body#en #voices_senes .contents .companies h2 {
   font-size: 14px;
   display: block;
@@ -548,7 +548,7 @@ body#en #voices_senes .contents .companies h2 {
   text-align: center;
   font-weight: normal;
 }
-/* line 246, ../sass/english.sass */
+/* line 247, ../sass/english.sass */
 body#en #voices_senes .contents .companies ul {
   zoom: 1;
   clear: both;
@@ -565,13 +565,13 @@ body#en #voices_senes .contents .companies ul:before, body#en #voices_senes .con
 body#en #voices_senes .contents .companies ul:after {
   clear: both;
 }
-/* line 250, ../sass/english.sass */
+/* line 251, ../sass/english.sass */
 body#en #voices_senes .contents .companies ul li.company {
   float: left;
   display: block;
   padding: 0 5px;
 }
-/* line 254, ../sass/english.sass */
+/* line 255, ../sass/english.sass */
 body#en #voices_senes .contents .medias {
   zoom: 1;
   margin: 0 0 30px 0;
@@ -587,7 +587,7 @@ body#en #voices_senes .contents .medias:before, body#en #voices_senes .contents 
 body#en #voices_senes .contents .medias:after {
   clear: both;
 }
-/* line 257, ../sass/english.sass */
+/* line 258, ../sass/english.sass */
 body#en #voices_senes .contents .medias h2 {
   font-size: 14px;
   display: block;
@@ -608,7 +608,7 @@ body#en #voices_senes .contents .medias h2 {
   text-align: center;
   font-weight: normal;
 }
-/* line 270, ../sass/english.sass */
+/* line 271, ../sass/english.sass */
 body#en #voices_senes .contents .medias ul {
   zoom: 1;
   clear: both;
@@ -625,13 +625,13 @@ body#en #voices_senes .contents .medias ul:before, body#en #voices_senes .conten
 body#en #voices_senes .contents .medias ul:after {
   clear: both;
 }
-/* line 274, ../sass/english.sass */
+/* line 275, ../sass/english.sass */
 body#en #voices_senes .contents .medias ul li.media {
   float: left;
   display: block;
   padding: 0 5px;
 }
-/* line 278, ../sass/english.sass */
+/* line 279, ../sass/english.sass */
 body#en #voices_senes .contents .senes {
   clear: both;
   zoom: 1;
@@ -647,18 +647,18 @@ body#en #voices_senes .contents .senes:before, body#en #voices_senes .contents .
 body#en #voices_senes .contents .senes:after {
   clear: both;
 }
-/* line 282, ../sass/english.sass */
+/* line 283, ../sass/english.sass */
 body#en #voices_senes .contents .senes h2 span {
   font-size: 12px;
   font-weight: normal;
   margin: 0 0 0 10px;
 }
-/* line 287, ../sass/english.sass */
+/* line 288, ../sass/english.sass */
 body#en #voices_senes .contents .senes .description p {
   display: block;
   margin: 0 0 18px 0;
 }
-/* line 290, ../sass/english.sass */
+/* line 291, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul {
   zoom: 1;
   width: 100%;
@@ -675,63 +675,63 @@ body#en #voices_senes .contents .senes ul:before, body#en #voices_senes .content
 body#en #voices_senes .contents .senes ul:after {
   clear: both;
 }
-/* line 294, ../sass/english.sass */
+/* line 295, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene {
   float: left;
   font-size: 13px;
   width: 280px;
   height: 300px;
 }
-/* line 299, ../sass/english.sass */
+/* line 300, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene h3 {
   font-weight: bold;
   font-size: 13px;
   line-height: 1.6;
   margin: 0 0 10px 0;
 }
-/* line 304, ../sass/english.sass */
+/* line 305, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene p {
   line-height: 1.4;
   color: #504e0c;
 }
-/* line 307, ../sass/english.sass */
+/* line 308, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene p a {
   font-weight: bold;
 }
-/* line 310, ../sass/english.sass */
+/* line 311, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .scene .image img {
   display: block;
   margin: 14px auto 0 auto;
 }
-/* line 313, ../sass/english.sass */
+/* line 314, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .center {
   border-left: white solid 1px;
   border-right: #eae3ce solid 1px;
   padding: 15px;
 }
-/* line 317, ../sass/english.sass */
+/* line 318, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .left {
   border-right: #eae3ce solid 1px;
   padding: 15px 15px 15px 0;
 }
-/* line 320, ../sass/english.sass */
+/* line 321, ../sass/english.sass */
 body#en #voices_senes .contents .senes ul .right {
   border-left: white solid 1px;
   padding: 15px 0 15px 15px;
 }
 
-/* line 326, ../sass/english.sass */
+/* line 327, ../sass/english.sass */
 body#en #pricing .contents h1 {
   background: url(../images/en/pricing_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 331, ../sass/english.sass */
+/* line 332, ../sass/english.sass */
 body#en #pricing .contents p {
   line-height: 1.4;
 }
-/* line 333, ../sass/english.sass */
+/* line 334, ../sass/english.sass */
 body#en #pricing .contents p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
@@ -805,14 +805,14 @@ body#en #pricing .contents p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 335, ../sass/english.sass */
+/* line 336, ../sass/english.sass */
 body#en #pricing .contents .main {
   margin: 0 0 20px 0;
   float: left;
   width: 380px;
   font-size: 13px;
 }
-/* line 340, ../sass/english.sass */
+/* line 341, ../sass/english.sass */
 body#en #pricing .contents .premium_plan {
   padding: 12px;
   float: right;
@@ -827,23 +827,23 @@ body#en #pricing .contents .premium_plan {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 349, ../sass/english.sass */
+/* line 350, ../sass/english.sass */
 body#en #pricing .contents .premium_plan h2 {
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 8px 0;
 }
-/* line 353, ../sass/english.sass */
+/* line 354, ../sass/english.sass */
 body#en #pricing .contents .premium_plan strong {
   font-weight: bold;
   color: yellow;
   font-size: 14px;
 }
-/* line 357, ../sass/english.sass */
+/* line 358, ../sass/english.sass */
 body#en #pricing .contents .premium_plan ul {
   padding: 0 20px;
 }
-/* line 359, ../sass/english.sass */
+/* line 360, ../sass/english.sass */
 body#en #pricing .contents .premium_plan ul li {
   display: block;
   line-height: 1.3;
@@ -852,7 +852,7 @@ body#en #pricing .contents .premium_plan ul li {
   padding: 0 0 0 14px;
   background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
 }
-/* line 366, ../sass/english.sass */
+/* line 367, ../sass/english.sass */
 body#en #pricing .contents .fan_plan {
   position: relative;
   clear: both;
@@ -889,7 +889,7 @@ body#en #pricing .contents .fan_plan:before, body#en #pricing .contents .fan_pla
 body#en #pricing .contents .fan_plan:after {
   clear: both;
 }
-/* line 378, ../sass/english.sass */
+/* line 379, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .recommend {
   background: url(../images/recommend.png) no-repeat;
   width: 87px;
@@ -900,7 +900,7 @@ body#en #pricing .contents .fan_plan .recommend {
   text-indent: -9999px;
   display: block;
 }
-/* line 388, ../sass/english.sass */
+/* line 389, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .price {
   font-weight: bold;
   font-size: 34px;
@@ -910,7 +910,7 @@ body#en #pricing .contents .fan_plan .price {
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 396, ../sass/english.sass */
+/* line 397, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .description {
   background: #fcf5bb;
   padding: 12px 18px;
@@ -921,19 +921,19 @@ body#en #pricing .contents .fan_plan .description {
   border-radius: 4px;
   border: #f8ec88 solid 1px;
 }
-/* line 401, ../sass/english.sass */
+/* line 402, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .description h3 {
   float: left;
   margin: 0 0 6px 0;
   font-weight: bold;
   font-size: 16px;
 }
-/* line 406, ../sass/english.sass */
+/* line 407, ../sass/english.sass */
 body#en #pricing .contents .fan_plan .description p {
   clear: both;
   color: #595852;
 }
-/* line 409, ../sass/english.sass */
+/* line 410, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan {
   zoom: 1;
 }
@@ -948,7 +948,7 @@ body#en #pricing .contents .enterprise_plan:before, body#en #pricing .contents .
 body#en #pricing .contents .enterprise_plan:after {
   clear: both;
 }
-/* line 411, ../sass/english.sass */
+/* line 412, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan h2 {
   border: #073a60 solid 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, rgba(255, 255, 255, 0.1) 0 1px 2px 2px inset;
@@ -970,7 +970,7 @@ body#en #pricing .contents .enterprise_plan h2 {
   background-image: -o-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
 }
-/* line 419, ../sass/english.sass */
+/* line 420, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan h2 span {
   display: block;
   font-weight: bold;
@@ -981,7 +981,7 @@ body#en #pricing .contents .enterprise_plan h2 span {
   color: white;
   text-shadow: #073a60 0 1px 0;
 }
-/* line 428, ../sass/english.sass */
+/* line 429, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner {
   zoom: 1;
   padding: 18px 26px;
@@ -1016,20 +1016,20 @@ body#en #pricing .contents .enterprise_plan .inner:before, body#en #pricing .con
 body#en #pricing .contents .enterprise_plan .inner:after {
   clear: both;
 }
-/* line 438, ../sass/english.sass */
+/* line 439, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .description {
   padding: 0 0 30px 0;
 }
-/* line 440, ../sass/english.sass */
+/* line 441, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .description p {
   font-size: 14px;
 }
-/* line 442, ../sass/english.sass */
+/* line 443, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features {
   padding: 0 0 0 30px;
   margin: 0 0 40px 0;
 }
-/* line 445, ../sass/english.sass */
+/* line 446, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features h3 {
   font-size: 13px;
   font-weight: bold;
@@ -1056,12 +1056,12 @@ body#en #pricing .contents .enterprise_plan .inner .features h3 {
   background-image: -o-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
 }
-/* line 458, ../sass/english.sass */
+/* line 459, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features ul {
   padding: 0 40px;
   background: url(../images/enterprise_plan.png) no-repeat 650px center;
 }
-/* line 461, ../sass/english.sass */
+/* line 462, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .features ul li {
   display: block;
   line-height: 1.6;
@@ -1070,7 +1070,7 @@ body#en #pricing .contents .enterprise_plan .inner .features ul li {
   padding: 0 0 0 13px;
   background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
 }
-/* line 468, ../sass/english.sass */
+/* line 469, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry {
   clear: both;
   position: relative;
@@ -1097,23 +1097,23 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry:before, body#en #pri
 body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
   clear: both;
 }
-/* line 476, ../sass/english.sass */
+/* line 477, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry p.image {
   float: left;
   padding: 0 20px 0 0;
 }
-/* line 479, ../sass/english.sass */
+/* line 480, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts {
   float: left;
   width: 660px;
 }
-/* line 482, ../sass/english.sass */
+/* line 483, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts h3 {
   font-size: 16px;
   font-weight: bold;
   margin: 0 0 12px 0;
 }
-/* line 487, ../sass/english.sass */
+/* line 488, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li {
   display: block;
   line-height: 1.5;
@@ -1132,15 +1132,15 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:befo
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   clear: both;
 }
-/* line 493, ../sass/english.sass */
+/* line 494, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li h4 {
   display: inline;
 }
-/* line 495, ../sass/english.sass */
+/* line 496, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li p {
   display: inline;
 }
-/* line 498, ../sass/english.sass */
+/* line 499, ../sass/english.sass */
 body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a {
   position: absolute;
   text-shadow: #155a90 0 -1px 0;
@@ -1176,16 +1176,16 @@ body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form
   opacity: 0.7;
 }
 
-/* line 517, ../sass/english.sass */
+/* line 518, ../sass/english.sass */
 body#en #communites .contents h1 {
   background: url(../images/en/communites_h1.png) no-repeat;
 }
-/* line 519, ../sass/english.sass */
+/* line 520, ../sass/english.sass */
 body#en #communites .contents p {
   font-size: 14px;
   line-height: 1.3;
 }
-/* line 522, ../sass/english.sass */
+/* line 523, ../sass/english.sass */
 body#en #communites .contents .sns {
   clear: both;
   margin: 30px 0 10px 0;
@@ -1202,41 +1202,41 @@ body#en #communites .contents .sns:before, body#en #communites .contents .sns:af
 body#en #communites .contents .sns:after {
   clear: both;
 }
-/* line 526, ../sass/english.sass */
+/* line 527, ../sass/english.sass */
 body#en #communites .contents .sns li {
   display: block;
   width: 225px;
   float: left;
   padding: 0 0 20px 0;
 }
-/* line 532, ../sass/english.sass */
+/* line 533, ../sass/english.sass */
 body#en #communites .contents .sns li a img {
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 535, ../sass/english.sass */
+/* line 536, ../sass/english.sass */
 body#en #communites .contents .sns li h2 {
   margin: 0 0 6px 0;
 }
-/* line 537, ../sass/english.sass */
+/* line 538, ../sass/english.sass */
 body#en #communites .contents .sns li h2 a {
   font-size: 13px;
   font-weight: bold;
 }
-/* line 540, ../sass/english.sass */
+/* line 541, ../sass/english.sass */
 body#en #communites .contents .sns li p {
   font-size: 12px;
   line-height: 1.3;
 }
-/* line 543, ../sass/english.sass */
+/* line 544, ../sass/english.sass */
 body#en #communites .contents .sns li.two {
   padding: 0 20px 20px 20px;
 }
-/* line 545, ../sass/english.sass */
+/* line 546, ../sass/english.sass */
 body#en #communites .contents .sns li.three {
   padding: 0 20px 20px 0;
 }
-/* line 548, ../sass/english.sass */
+/* line 549, ../sass/english.sass */
 body#en #communites .contents .developers {
   padding: 10px 0 0 14px;
   border: #89c25b solid 4px;
@@ -1261,52 +1261,52 @@ body#en #communites .contents .developers:before, body#en #communites .contents 
 body#en #communites .contents .developers:after {
   clear: both;
 }
-/* line 556, ../sass/english.sass */
+/* line 557, ../sass/english.sass */
 body#en #communites .contents .developers li {
   width: 180px;
   float: left;
 }
-/* line 559, ../sass/english.sass */
+/* line 560, ../sass/english.sass */
 body#en #communites .contents .developers li h3 {
   margin: 0 0 6px 0;
 }
-/* line 561, ../sass/english.sass */
+/* line 562, ../sass/english.sass */
 body#en #communites .contents .developers h2 {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 565, ../sass/english.sass */
+/* line 566, ../sass/english.sass */
 body#en #communites .contents .developers p {
   font-size: 12px;
   margin: 0 0 12px 0;
 }
-/* line 569, ../sass/english.sass */
+/* line 570, ../sass/english.sass */
 body#en #communites .contents .api h2 {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 573, ../sass/english.sass */
+/* line 574, ../sass/english.sass */
 body#en #communites .contents .api p {
   margin: 0 0 14px 0;
   font-size: 13px;
   line-height: 1.4;
 }
 
-/* line 580, ../sass/english.sass */
+/* line 581, ../sass/english.sass */
 body#en #inquiry .contents h1 {
   background: url(../images/en/inquiry_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 585, ../sass/english.sass */
+/* line 586, ../sass/english.sass */
 body#en #inquiry .contents iframe {
   margin: 0 0 0 60px;
 }
 
-/* line 588, ../sass/english.sass */
+/* line 589, ../sass/english.sass */
 body#en #company {
   background: url(../images/bg_cream.gif) #f8f8ee;
   padding: 50px 0;
@@ -1323,7 +1323,7 @@ body#en #company:before, body#en #company:after {
 body#en #company:after {
   clear: both;
 }
-/* line 592, ../sass/english.sass */
+/* line 593, ../sass/english.sass */
 body#en #company .contents {
   zoom: 1;
 }
@@ -1338,19 +1338,19 @@ body#en #company .contents:before, body#en #company .contents:after {
 body#en #company .contents:after {
   clear: both;
 }
-/* line 594, ../sass/english.sass */
+/* line 595, ../sass/english.sass */
 body#en #company .contents h1 {
   background: url(../images/en/company_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 599, ../sass/english.sass */
+/* line 600, ../sass/english.sass */
 body#en #company .contents p {
   line-height: 1.6;
   font-size: 13px;
 }
-/* line 602, ../sass/english.sass */
+/* line 603, ../sass/english.sass */
 body#en #company .contents .description {
   zoom: 1;
   padding: 0 0 40px 0;
@@ -1368,15 +1368,15 @@ body#en #company .contents .description:before, body#en #company .contents .desc
 body#en #company .contents .description:after {
   clear: both;
 }
-/* line 607, ../sass/english.sass */
+/* line 608, ../sass/english.sass */
 body#en #company .contents .description .logo {
   margin: 0 0 20px 0;
 }
-/* line 610, ../sass/english.sass */
+/* line 611, ../sass/english.sass */
 body#en #company .contents .description .text p {
   font-size: 14px;
 }
-/* line 612, ../sass/english.sass */
+/* line 613, ../sass/english.sass */
 body#en #company .contents .members {
   float: left;
   zoom: 1;
@@ -1393,7 +1393,7 @@ body#en #company .contents .members:before, body#en #company .contents .members:
 body#en #company .contents .members:after {
   clear: both;
 }
-/* line 616, ../sass/english.sass */
+/* line 617, ../sass/english.sass */
 body#en #company .contents .members li {
   display: block;
   float: left;
@@ -1401,12 +1401,12 @@ body#en #company .contents .members li {
   padding: 0 20px 0 0;
   text-align: center;
 }
-/* line 622, ../sass/english.sass */
+/* line 623, ../sass/english.sass */
 body#en #company .contents .members li h2 {
   font-size: 12px;
   margin: 0 0 2px 0;
 }
-/* line 625, ../sass/english.sass */
+/* line 626, ../sass/english.sass */
 body#en #company .contents .members li .image {
   display: block;
   height: 100px;
@@ -1423,7 +1423,7 @@ body#en #company .contents .members li .image {
   -moz-box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
   box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
 }
-/* line 634, ../sass/english.sass */
+/* line 635, ../sass/english.sass */
 body#en #company .contents .members li .image img {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -1433,12 +1433,12 @@ body#en #company .contents .members li .image img {
   width: 100px;
   height: auto;
 }
-/* line 638, ../sass/english.sass */
+/* line 639, ../sass/english.sass */
 body#en #company .contents .why {
   clear: both;
   width: 600px;
 }
-/* line 641, ../sass/english.sass */
+/* line 642, ../sass/english.sass */
 body#en #company .contents .why h2 {
   font-size: 14px;
   display: block;
@@ -1460,7 +1460,7 @@ body#en #company .contents .why h2 {
   font-weight: normal;
   margin: 0 0 20px 0;
 }
-/* line 655, ../sass/english.sass */
+/* line 656, ../sass/english.sass */
 body#en #company .contents .why p {
   clear: both;
   margin-bottom: 40px;
